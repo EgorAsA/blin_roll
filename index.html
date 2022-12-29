@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blin Roll</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700;900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700;900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -21,7 +23,7 @@
                     <li><a href="#">Контакты</a></li>
                 </ul>
                 <a href="#" class="navbar-number">
-                    <img src="icons/call 1.svg"> 
+                    <img src="icons/call 1.svg">
                     +7 (987) 654-32-11
                 </a>
                 <div class="navbar-login">
@@ -32,41 +34,46 @@
             </div>
         </nav>
     </header>
-            <main>
+    <main>
+        <div class="main-page">
+            <div>
                 <nav class="content">
                     <div class="discount">
                         <div class="square">
                             <span>Скидка 20%</span>
                         </div>
                     </div>
-                    <div class="pizza-info">
-                        <div class="info">
-                     "Гавайская" пицца <span>1200г</span>
+                    <div class="description-row">
+                        <div class="pizza-info">
+                            <div class="info">
+                                <div>
+                                    "Гавайская" пицца <span>1200г</span>
+                                </div>
+                                <div class="pizza-sale">
+                                    760 ₽
+                                </div>
+                            </div>
+                            <div class="ingredients">
+                                <ul class="products">
+                                    <li>Курица</li>
+                                    <li>Грибы</li>
+                                    <li>Ананас</li>
+                                    <li>3 сыра</li>
+                                    <li>Свежая зелень</li>
+                                </ul>
+                            </div>
                         </div>
-                     <div class="pizza-sale">
-                     760 ₽
-                    </div>
-                    <div class="ingredients">
-                        <ul class="products">
-                            <li>Курица</li>
-                            <li>Грибы</li>
-                            <li>Ананас</li>
-                            <li>3 сыра</li>
-                            <li>Свежая зелень</li>
-                        </ul>
-                        <button type="button">Добавить в корзину</button>
-                    </div>
+                        <button type="button" class="add-to-cart">Добавить в корзину</button>
                     </div>
                 </nav>
                 <div class="text">
                     <h1>У нас <span>вкусно!</span></h1>
                     <p>Приготовим и доставим до дома блины, роллы,<br> пиццу и многое другое за 30 минут</p>
                 </div>
-                <nav class="container2">
-                    
-                </nav>
-            </main>
-        </nav>
-    </header>
+            </div>
+            <nav class="container2">
+            </nav>
+        </div>
+    </main>
 </body>
 </html>

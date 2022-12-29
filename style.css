@@ -37,7 +37,7 @@ body{
     height: fit-content;
 }
 
-header {
+header, main {
     width: 1210px;
     margin: 0 auto;
 }
@@ -72,10 +72,8 @@ header {
     width: 830px;
     height: 300px;
     border-radius: 10px;
-    margin-left: 200px;
     font-family: 'Exo 2', sans-serif;
     color: #FFFFFF;
-    margin-left: 340px;
 }
 
 .square span {
@@ -109,7 +107,7 @@ main {
     height: 160px;
     margin-top: 34px;
     margin-left: 20px;
-    margin-bottom: 24px;
+    border-radius: 6px;
 }
 
 .info {
@@ -118,12 +116,14 @@ main {
     line-height: 24px;
     padding-top: 20px;
     padding-left: 20px;
+    padding-right: 20px;
     letter-spacing: 0.06em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .info span {
-    width: 59px;
-    height: 19px;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -131,13 +131,20 @@ main {
 }
 
 .pizza-sale {
-    padding-left: 372px;
-    width: 58px;
-    height: 24px;
     font-weight: 900;
     font-size: 20px;
     line-height: 24px;
     color: #24FF3A;
+}
+
+.products {
+    margin: 0;
+    padding: 34px 24px 14px 24px;
+}
+
+.description-row {
+    display: flex;
+    align-items: flex-end;
 }
 
 .products li {
@@ -147,6 +154,7 @@ main {
     line-height: 22px;
     letter-spacing: 0.06em;
     margin-right: 20px;
+    margin-bottom: 14px;
 }
 
 .button {
@@ -155,7 +163,6 @@ main {
 }
 
 .text {
-    margin-left: 345px;
     margin-top: 93px;
 }
 
@@ -184,4 +191,13 @@ main {
     background-image: url(img/main__slider-1.jpg);
     width: 772px;
     height: 580px;
+}
+
+.main-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-to-cart {
+    margin-left: 40px;
 }
