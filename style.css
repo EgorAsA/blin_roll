@@ -1,0 +1,187 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.navbar-menu {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.navbar-menu li {
+    display: inline-block;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.navbar-menu li a {
+    display: inline-block;
+    color: #333333;
+    text-decoration: none;
+}
+
+.navbar-wrap {
+    display: flex;
+    flex-wrap: row nowrap;
+    height: fit-content;
+}
+
+header {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.navbar-number {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-right: 57px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-login a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.navbar-number img {
+    margin-right: 14px;
+}
+
+.content {
+    background-image: url(img/main-offer-pizza.jpg.jpg);
+    width: 830px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 200px;
+    font-family: 'Exo 2', sans-serif;
+    color: #FFFFFF;
+    margin-left: 340px;
+}
+
+.square span {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.square {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    width: 240px;
+    height: 60px;
+    padding-top: 12px;
+}
+
+main {
+    margin-top: 52px;
+}
+
+.discount {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.pizza-info {
+    background: rgba(0, 0, 0, 0.5);
+    width: 450px;
+    height: 160px;
+    margin-top: 34px;
+    margin-left: 20px;
+    margin-bottom: 24px;
+}
+
+.info {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-left: 20px;
+    letter-spacing: 0.06em;
+}
+
+.info span {
+    width: 59px;
+    height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+}
+
+.pizza-sale {
+    padding-left: 372px;
+    width: 58px;
+    height: 24px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #24FF3A;
+}
+
+.products li {
+    display: inline-block;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    margin-right: 20px;
+}
+
+.button {
+    padding-left: 24px;
+    background-color: #24FF3A;
+}
+
+.text {
+    margin-left: 345px;
+    margin-top: 93px;
+}
+
+.text h1 {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.08em;
+    color: #333333;
+}
+
+.text span {
+    color: #FF9737;
+}
+
+.text p {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.03em;
+    color: #333333;
+    margin-top: 0;
+}
+
+.container2 {
+    background-image: url(img/main__slider-1.jpg);
+    width: 772px;
+    height: 580px;
+}
